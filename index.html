@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +7,59 @@
     <link rel="icon" href="/asset/MyDigitLogo.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
 </head>
+
 <body>
+    <header class="header">
+        <div class="logo flex gap-2">
+            MyDigit Agency
+        </div>
+
+        <button class="hamburger" id="hamburgerBtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="desktop-nav">
+            <a href="#Accueil">Accueil</a>
+            <a href="#Service">Services</a>
+            <a href="#Portfolio">Portfolio</a>
+            <a href="#Apropos">À propos</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <div id="sideMenu" class="side-menu">
+        <div class="side-menu-header">
+            <span class="logo">
+
+                MyDigit Agency
+            </span>
+            <button id="closeBtn" class="close-btn">&times;</button>
+        </div>
+
+        <a href="#Accueil">Accueil</a>
+        <a href="#Service">Services</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#Apropos">À propos</a>
+        <a href="#Contact">Contact</a>
+    </div>
+
+    <div id="overlay" class="overlay"></div>
+
+    <main class="pt-20">
+        <section class="h"></section>
+        <section class="h"></section>
+        <section class="h"></section>
+        <section class="h"></section>
+        <section class="h"></section>
+    </main>
     
-</body>
+    <footer></footer>
+    <button></button>
+
 <script src="script.js"></script>
+</body>
 </html>
