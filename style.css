@@ -125,4 +125,7 @@ body {
     .desktop-nav {
         display: flex;
     }
+    footer {
+        padding: 2rem 4rem;
+    }
 }
