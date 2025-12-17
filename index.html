@@ -55,6 +55,31 @@
 
     <div id="overlay" class="overlay"></div>
 
+    <div class="whatsapp-float" onclick="openWhatsappMenu()">
+        <i class="fa-brands fa-whatsapp"></i>
+    </div>
+
+    <div id="whatsapp-menu" class="whatsapp-menu">
+        <div class="whatsapp-menu-head">
+            <h4 class="flex flex-col">
+                MyDigit Agency
+                <div class="text-sm">Réponse rapide garantie</div>
+            </h4>
+            <span onclick="closeWhatsappMenu()">✖</span>
+        </div>
+        <div class="whatsapp-menu-body">
+            <p>Sélectionnez le type de demande :</p>
+    
+            <button onclick="sendWhatsApp('Demande de devis')">📄 Demande de devis</button>
+            <button onclick="sendWhatsApp('Création Site Web / App')">💻 Site Web / App</button>
+            <button onclick="sendWhatsApp('Design UI/UX')">🎨 Design UI/UX</button>
+            <button onclick="sendWhatsApp('Marketing Digital')">📢 Marketing Digital</button>
+            <button onclick="sendWhatsApp('CV Professionnel')">📄 CV Professionnel</button>
+            <button onclick="sendWhatsApp('Assistance / Debugging')">🛠️ Assistance / Debugging</button>
+            <button onclick="sendWhatsApp('Autre demande')">💬 Autre demande</button>
+        </div>
+    </div>
+
     <main class="pt-20">
         <section class="h"></section>
         <section class="h"></section>
@@ -136,7 +161,7 @@
             </div>
         </div>
         <hr class="text-gray-600 mt-3">
-        <div class="flex flex-col items-center justify-center mt-3 md: flex-row md:justify-between">
+        <div class="flex flex-col items-center justify-center mt-3 md:flex-row md:justify-between">
             <p class="text-gray-400 text-xs md:text-sm">
                 © 2025 MyDigit Agency. Tous droits réservés.
             </p>
