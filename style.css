@@ -35,7 +35,7 @@ body {
 }
 
 .desktop-nav a:hover {
-    color: #6a5acd;
+    color: #5542ce;
 }
 
 .hamburger {
@@ -108,13 +108,6 @@ body {
 .overlay.show {
     opacity: 1;
     pointer-events: auto;
-}
-
-.h {
-    height: 500px;
-    background: #ececec;
-    margin: 20px;
-    border-radius: 10px;
 }
 
 @media (min-width: 768px) {
